@@ -6,11 +6,11 @@
  */
 
 public class program {
-    public static void main(){
+    public static void main(String[] args){
         // Tipe Data
 
         int Angka = 5;
-        float angka = 6.4;
+        double angka = 6.4;
         char Huruf = 'A';
         String Kalimat = "Adam Rahmat ILahi";
 
