@@ -11,26 +11,26 @@ import java.util.Scanner;
 public class soal_02 {
     public static void main(String[] args) {
         try(Scanner Input = new Scanner(System.in)){
-            int var_01, var_02,pengalih;
+            int var1, var2,pengalih;
 
             System.out.print("PROGRAM PENAMPIL BILANGAN NON PRIMA\n");
             System.out.print("Input bilangan Awal  : ");
-            var_01 = Input.nextInt();
+            var1 = Input.nextInt();
             System.out.print("Input bilangan Akhir : ");
-            var_02 = Input.nextInt();
+            var2 = Input.nextInt();
 
             // proses menguji nilai
-            if(var_01 >= var_02){
+            if(var1 >= var2){
                 System.out.println("Input awal tidak boleh lebih dari bilangan akhir.");
             }
 
-            else if(var_01 <= 0 || var_02 <= 0){
+            else if(var1 <= 0 || var2 <= 0){
                 System.out.println("Input tidak boleh kurang atau sama dengan 0");
             }
 
             else{
                 System.out.println("Bilangan Non Prima : ");
-                for(int awal = var_01; awal <= var_02; awal++){     // untuk membuat loop dari var_01 -> var_02
+                for(int awal = var1; awal <= var2; awal++){     // untuk membuat loop dari var_01 -> var_02
                     // untuk proses pengujian
                     pengalih = 0;
 
