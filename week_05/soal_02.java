@@ -21,6 +21,7 @@ public class soal_02 {
 
             // proses menguji nilai
             if(var1 >= var2){
+                
                 System.out.println("Input awal tidak boleh lebih dari bilangan akhir.");
             }
 
