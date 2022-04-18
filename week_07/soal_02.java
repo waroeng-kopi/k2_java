@@ -14,8 +14,6 @@ package week_07;
 
 import java.util.Scanner;
 
-import java.math.*;
-
 public class soal_02 {
 
     static int Pangkat(int base, int exponent){
