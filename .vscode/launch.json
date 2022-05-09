@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Remidi_UTS",
+            "request": "launch",
+            "mainClass": "week_09.Remidi_UTS",
+            "projectName": "kuliah_2_java_2f644e68"
+        },
+        {
+            "type": "java",
             "name": "Launch soal_02",
             "request": "launch",
             "mainClass": "soal_02",

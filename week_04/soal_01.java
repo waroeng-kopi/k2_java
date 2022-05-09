@@ -1,3 +1,5 @@
+package week_04;
+
 // Programmer : Adam Rahmat Ilahi
 // Saturday, 2 April 2022
 //
@@ -13,7 +15,7 @@ public class soal_01 {
         int input;
 
         // membuat scanner baru
-        Scanner Input = new Scanner(System.in);
+        try(Scanner Input = new Scanner(System.in)){
 
         System.out.println("Program Penentu bilangan bulat habis dibagi 3");
         System.out.println("+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+");
@@ -27,6 +29,7 @@ public class soal_01 {
 
         else{
             System.out.println(input+" bukan bilangan yang habis dibagi 3");
+        }
         }
   }  
 }

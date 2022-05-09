@@ -1,3 +1,5 @@
+package week_04;
+
 // Programmer : Adam Rahmat Ilahi
 // Saturday, 02 April 2022
 //
@@ -17,7 +19,7 @@ import java.util.Scanner;
 
 public class soal_05 {
     public static void main(String[] args) {
-        Scanner Input = new Scanner(System.in);
+        try(Scanner Input = new Scanner(System.in)){
         int berat,  diskon = 0,  biaya, harga = 3500;
 
         System.out.println("Program penentu biaya laudry dari inputan berat laundry");
@@ -60,5 +62,6 @@ public class soal_05 {
         }
 
         System.out.println("Biaya yang harus di bayar   = Rp."+biaya);
+    }
     }
 }

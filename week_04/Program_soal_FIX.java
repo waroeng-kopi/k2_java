@@ -1,3 +1,5 @@
+package week_04;
+
 import java.util.Scanner;
 
 public class Program_soal_FIX{

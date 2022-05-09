@@ -1,3 +1,5 @@
+package week_04;
+
 // Programmer : Adam Rahmat Ilahi
 // Saturday, 2 April 2022
 //
@@ -10,7 +12,7 @@ import java.util.Scanner;
 
 public class soal_02 {
     public static void main(String[] args) {
-        Scanner Input = new Scanner(System.in);
+        try(Scanner Input = new Scanner(System.in)){
 
         // Deklarasi variabel
         int angka_1, angka_2;
@@ -29,6 +31,7 @@ public class soal_02 {
         }
         else{
             System.out.println(angka_2+" lebih besar dari "+angka_1);
+        }
         }
     }
 }

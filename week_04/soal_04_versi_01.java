@@ -1,3 +1,5 @@
+package week_04;
+
 // Programmer : Adam Rahmat Ilahi
 // Saturday, 02 April 2022
 //
@@ -19,8 +21,8 @@ import java.util.Scanner;
 
 public class soal_04_versi_01{
     public static void main(String[] args) {
-        Scanner Input = new Scanner(System.in);
-        int hari_kerja, hitung, gaji = 0;
+        try(Scanner Input = new Scanner(System.in)){
+        int hari_kerja, gaji = 0;
 
         System.out.println("Program Gaji Pegawai Toko ABC");
         System.out.println("+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+");
@@ -51,5 +53,6 @@ public class soal_04_versi_01{
         
 
         System.out.println("Gaji yang akan diterima : "+gaji);
+    }
     }
 }

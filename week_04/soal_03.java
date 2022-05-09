@@ -1,3 +1,5 @@
+package week_04;
+
 // Programmer : Adam Rahmat Ilahi
 // Saturday, 02 April 2022
 //
@@ -15,7 +17,7 @@ import java.util.Scanner;
 
 public class soal_03 {
     public static void main(String[] args) {
-        Scanner Input = new Scanner(System.in);
+        try(Scanner Input = new Scanner(System.in)){
         char input;
 
         System.out.println("Program Penentu saluran TV dari character hasil inputan");
@@ -58,6 +60,6 @@ public class soal_03 {
             System.out.println("Tidak dapat menemukan channel TV");
             System.out.println("Terjadi kesalahan dalam input");
         }
-
+    }
     }    
 }

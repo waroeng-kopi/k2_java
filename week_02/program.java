@@ -1,3 +1,5 @@
+package week_02;
+
 /*
  *  Programmer : Adam Rahmat Ilahi
  *  Thursday, 31 March 2022
