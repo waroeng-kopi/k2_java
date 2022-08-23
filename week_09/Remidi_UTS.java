@@ -5,6 +5,22 @@
 // Soal:
 //      buatlah program untuk menentukan zodiak berdasarkan inputan 
 //      berupa tanggal dan bulan.
+//      Berikut soal UTS Remidi hari ini :
+        // 1. Bagi mhs dg npm digit terakhir 0,2,4  : buatlah program untuk menentukan zodiak berdasarkan inputan berupa tanggal dan bulan
+
+        // 2.  Bagi mhs dg npm digit terakhir 1,3,5  : buatlah program untuk menentukan nominal terbilang dari sebuah bilangan yang diinputkan (maksimal 4 digit)
+        // Misal : input = 4378 , maka output = empat ribu tiga ratus tujuh puluh delapan
+
+        // 3.  Bagi mhs dg npm digit terakhir 6,7,8,9: buatlah program untuk menentukan jumlah digit satuan dari sebuah nilai yang diinputkan (maksimal 7 digit).
+        // Misal : input = 9124673 ,
+        // maka output =
+        // Jutaan = 9
+        // Ratusan ribu = 1
+        // Puluhan ribu = 2
+        // Ribuan = 4
+        // Ratusan = 6
+        // Puluhan = 7
+        // Satuan = 3
 //      
 
 package week_09;
